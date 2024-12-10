@@ -1,2 +1,2 @@
-# npm-crowdsec
-Nginx Proxy Manager Configuration with Crowdsec
+
+# Nginx Proxy Manager Configuration with Crowdsec
