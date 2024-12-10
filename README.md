@@ -13,10 +13,11 @@ First, we will need to set up Nginx Proxy Manager via its docker-compose I will 
 you will also need to run the following before you run `docker-compose up -d`
 
 ```
-mkdir /Nginx-Proxy-Manger
+mkdir /opt/nginx-proxy-manager
 ```
+
 ```
-touch /Nginx-Proxy-Manger/crowdsec-openresty-bouncer.conf
+touch /opt/nginx-proxy-manger/crowdsec-openresty-bouncer.conf
 ```
 
 ```
