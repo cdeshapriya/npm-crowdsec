@@ -1,5 +1,19 @@
 # Introduction
 
+Nginx Proxy Manager (NPM) is a popular Docker-based, user-friendly webproxy-in-a-box solution. Supporting CrowdSec for NPM is fantastic because it offers an additional layer of security to the websites you are proxying. CrowdSec with Nginx Proxy Manager provides comprehensive security for your web applications.
+
+But what about native support? That would be awesome, right? Fortunately, someone had that thinking on May 28, 2021, when they raised an issue about it on the project's GitHub repository.
+
+CrowdSec was not as popular back then as it is now, thus nothing much happened for the first few months following that save for GitHub users adding comments to support the notion of the issue's original developer.
+
+Someone tried adding CrowdSec in October 2021, but there was no suitable log parser at the time because the NPM project changed the logfile format, making it impossible to parse with the standard NGINX log parser.
+
+All of that changed in January 2022, when the CrowdSec developer team finally decided to create one. And when a component for OpenResty (the Nginx-based web platform used by NPM) became available, the fun could begin!.
+
+
+
+
+
 
 # Nginx Proxy Manager Configuration with Crowdsec
 
